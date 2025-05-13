@@ -1,0 +1,38 @@
+# Site Configuration
+site:
+  name: "Nami's Music Academy"
+  tagline: "Discover the Beauty of Hindustani Classical Music"
+  logo: "/images/logo.svg"
+  defaultLanguage: "english"
+
+# Contact Information
+contact:
+  calendly: "nidhikothari2701"
+    
+
+# About Section
+about:
+  name: "Nidhi"
+  title: "Hindustani Classical Vocalist & Teacher"
+  photo: "/images/nidhi-portrait.jpg"
+  bio: |
+    I am a passionate Hindustani classical vocalist with over 10 years of experience performing and teaching this ancient art form. My journey began at a young age under the guidance of renowned gurus, and I've dedicated my life to preserving and sharing this beautiful tradition.
+    
+    My teaching approach combines traditional rigor with modern accessibility, making the complex world of ragas and taals approachable for students of all backgrounds and skill levels.
+  achievements:
+    - "Performed at jain religious music events across India"
+    - "Recipient of national music scholarship"
+    - "Conducted workshops at national music conferences"
+
+# Courses Section
+courses:
+  - name: "Hindustani Classical Music Fundamentals"
+    description: "A comprehensive course designed to build a strong foundation in the principles and practices of Hindustani classical vocal music."
+    features:
+      - "Introduction to the basic concepts of swar (notes) and taal (rhythm)"
+      - "Voice culture and proper breathing techniques for vocalists"
+      - "Detailed study of alankars (melodic patterns) and paltas (exercises)"
+      - "Introduction to popular ragas and their aalap and taan"
+      - "Training in various forms including khayal, and bhajan"
+    duration: "12 weeks"
+    level: "Beginner to Intermediate"
