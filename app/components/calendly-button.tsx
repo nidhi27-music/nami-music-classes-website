@@ -3,6 +3,7 @@
 import { useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Calendar } from "lucide-react"
+import config from "@/app/config"
 
 interface CalendlyButtonProps {
   text: string
@@ -28,7 +29,7 @@ export function InlineCalendlyButton({ text, large, className = "" }: CalendlyBu
     if (window.Calendly) {
       // @ts-ignore
       window.Calendly.initPopupWidget({
-        url: "https://calendly.com/nidhikothari2701/30min",
+        url: `https://calendly.com/${config.contact.calendly}/30min`,
       })
     }
   }
