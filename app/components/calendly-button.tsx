@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Calendar } from "lucide-react"
-import config from "@/app/config.yaml"
+import config from "@/app/config"
 
 interface CalendlyButtonProps {
   text: string
