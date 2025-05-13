@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-lg overflow-hidden border-2 border-amber-200 shadow-lg">
               <Image
-                src="/nami-logo.png?height=600&width=800"
+                src="/cover-image.png?height=600&width=800"
                 alt="Hindustani classical music"
                 fill
                 className="object-cover"
