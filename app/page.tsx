@@ -39,7 +39,7 @@ export default function Home() {
         <section id="home" className="relative py-20 md:py-32 overflow-hidden">
           <div className="absolute inset-0 -z-10 opacity-10">
             <Image
-              src="/placeholder.svg?height=800&width=1600"
+              src="/cover-image.png?height=800&width=1600"
               alt="Background pattern"
               fill
               className="object-cover"
@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 relative h-80 md:h-96 w-full rounded-lg overflow-hidden border-2 border-amber-200 shadow-lg">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/nami-logo.png?height=600&width=800"
                 alt="Hindustani classical music"
                 fill
                 className="object-cover"
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="md:w-2/5 relative h-80 md:h-[500px] w-full rounded-lg overflow-hidden border-2 border-amber-200 shadow-lg">
                 <Image
-                  src="/placeholder.svg?height=600&width=500"
+                  src="/nidhi-portrait.jpg?height=600&width=500"
                   alt="Nidhi performing"
                   fill
                   className="object-cover"
